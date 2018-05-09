@@ -1,0 +1,41 @@
+body{
+	background: black;
+	
+}
+img{
+	box-shadow: 0px 5px 20px black; /*sombra de caja*/
+	border-radius: 100px;
+}
+.col-md-4{
+	margin: 40px 0;
+	float: left;
+	background: pink;
+	border-radius:15px ;
+	border-top-width: 8px;
+	padding: 20px;
+
+
+}
+
+.col-md-7{
+	border-radius:18px;
+	margin-top: 40px;
+	margin-left: 50px;
+	/*float: left;*/
+	background:pink;
+	font-family: helvetica;
+	text-align: left;
+	border: solid #ddd;
+
+}
+.saludo{
+	text-align: center;
+}
+
+nav{
+	border: solid #ddd;
+	padding: 10px;
+}
+.imggg{
+	text-align: center;
+}
