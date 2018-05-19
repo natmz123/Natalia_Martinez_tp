@@ -3,7 +3,7 @@ body{
 	background: cover;
 }
 img{
-	box-shadow: 0px 5px 20px black; /*sombra de caja*/
+	box-shadow: 0px 5px 20px black;
 	border-radius: 100px;
 }
 .col-md-4{
