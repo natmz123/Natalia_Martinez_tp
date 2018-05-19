@@ -1,42 +1,65 @@
-	<!DOCTYPE html>
-	<html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<title> Mi pagina wed</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-
-	</head>
-	<body class="container">
-		<div class="row">
-			
-			<div class="col-md-4">
-				<div class="imggg">
-					<img src="img/nasti.jpg" onmouseover="this.width=100 ; this.height=100" onmouseout="this.width=90 ; this.height=90" width="90" height="90">
-				</div>
-				<h1> Natalia Martínez</h1>
-				<div id="header">
-					<ul class="nav">
-						<li><a href=""> <span class="glyphicon glyphicon-home"></span> Inicio</a></li>
-						<li><a href="">Servicios</a>
-							<ul>
-								<li><a href="">Diseño de portadas</a></li>
-								<li><a href="">Edición de publicidades</a></li>
-								<li><a href="">Diseño de páginas wed</a></li>
-								<li><a href="">Mejoraminto de blog</a></li>
-							</ul>
-						</li>
-						<li><a href="">Acerca de otros servicios que ofrezco</a>
-							<ul>
-								<li><a href="">Diseño de atuendos </a></li>
-								<li><a href="">Diseño personaizado de atuendos</a></li>
-								<li><a href="">Guia para combinar tu ropa deacuerdo a cada ocación</a></li>
-								<li><a href="">Atuendos para cada estación </a></li>
-							</ul>
-						</li>
-						<li><a href=""><span class="glyphicon glyphicon-user"></span> Para llamadas al:</a>+595986657322 <br> +595992344354 </li>
-					</ul>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title> Mi pagina wed</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="imggg">
+				<img src="img/nasti.jpg" onmouseover="this.width=100 ; this.height=100" onmouseout="this.width=90 ; this.height=90" width="90" height="90">
+			</div>
+			<h1> Natalia Martínez</h1>
+			<div id="header">
+				<ul class="nav">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel panel-heading" role="tab" id="headingFive">
+								<h4 class="panel panel-title">
+									<a  role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-controls="collapseFive" > Servicios
+									</a>
+								</h4>
+							</div>
+							<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+								<div class="panel-body">
+									<h5>
+										<ul>
+											<li><a href="">Diseño de portadas</a></li>
+											<li><a href="">Edición de publicidades</a></li>
+											<li><a href="">Diseño de páginas wed</a></li>
+											<li><a href="">Mejoraminto de blog</a></li>
+										</ul>
+									</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel panel-heading" role="tab" id="headingsex">
+								<h4 class="panel panel-title">
+									<a  role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSex" aria-controls="collapseSex" > Acerca de otros servicios que ofrezco
+									</a>
+								</h4>
+							</div>
+							<div id="collapseSex" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsex">
+								<div class="panel-body">
+									<h5>
+										<ul>
+											<li><a href="">Diseño de atuendos </a></li>
+											<li><a href="">Diseño personaizado de atuendos</a></li>
+											<li><a href="">Guia para combinar tu ropa deacuerdo a cada ocación</a></li>
+											<li><a href="">Atuendos para cada estación </a></li>
+										</ul>	
+									</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<li><a href=""><span class="glyphicon glyphicon-user"></span> Para llamadas al:</a>+595986657322 <br> +595992344354 </li>	
 				</div>
 				<nav>
 					<p> Puedes saber más sobre mí siguiendome en mis redes sociales</p>
@@ -45,18 +68,13 @@
 					<a href="https://youtu.be./52j1k-l2Jyw" target="blank"><img title="Seguime en mi canal" src="img/tube.jpg" width="32" height="32"></a>	
 				</nav>
 			</div>
-
-			
-
 			<div class="col-md-7">
 				<h1 class="saludo">Hola!! Soy Natalia </h1>
 				<p>Diseño paginas wed, me gusta todo lo relacionado con la inspiracion y creatividad; tambien hago portadas de todo tipo....</p>
-			
 				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
 						<div class="panel panel-heading" role="tab" id="headingOne">
 							<h4 class="panel-title">
-					
 								<a role="button"  class="glyphicon glyphicon-info-sign" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-controls="collapseOne"> Mis datos
 				 				</a>
 							</h4>
@@ -75,7 +93,7 @@
 					<div class="panel panel-default">
 						<div class="panel panel-heading" role="tab" id="headingTwo">
 							<h4 class="panel panel-title">
-								<a class="glyphicon glyphicon-heart" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-controls="collapseTwo" >Lo que me gusta
+								<a class="glyphicon glyphicon-heart" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-controls="collapseTwo" > Lo que me gusta
 								</a>
 							</h4>
 						</div>
@@ -90,13 +108,37 @@
 				</div>
 				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
-						<div class="panel panel-heading" role="tab" id="headingThree">
-							<h4>
-								<a href="#collapseThree" class="glyphicon glyphicon-picture" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseThree"> Mis fotos
+						<div class="panel panel-heading" role="tab" id="headingFour">
+							<h4 class="panel panel-title">
+								<a class="glyphicon glyphicon-home" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"   aria-controls="collapseFour"> Datos Académicos
 								</a>
 							</h4>
 						</div>
-						<div id="collapseThree" class="panel panel-collapse" role="tabpanel" aria-labelledby="headingThree">
+						<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+							<div class="panel-body">
+								<h5>
+									<h4>Escuela primaria: </h4>
+									Cap. Pedro J. Carpinelli
+									<h4>Escuela secundaria:</h4>
+									Defensores del Chaco
+									<h4>Colegio</h4>
+									Coleg. Nac. Gral. José Gervasio Artígas
+									<h4>Universidad</h4>
+									Universidad Nacional de Canindeyu (UNICAN)
+								</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel panel-heading" role="tab" id="headingThree">
+							<h4 class="panel panel-title">
+								<a class="glyphicon glyphicon-picture" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-controls="collapseThree"> Mis fotos
+								</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 							<div class="panel-body">
 								<h5>
 									<img src="img/foti.jpg" onmouseover="this.width=500 ; this.height=400" onmouseout="this.width=90 ; this.height=90" width="200" height="200">
@@ -108,15 +150,9 @@
 				</div>
 			</div>
 		</div>
-		
-
-		
-
-		
-
-
-
-	    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	    <script src="js/controlador.js"></script>
-	</body>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/controlador.js"></script>
+</body>
+</html>

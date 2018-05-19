@@ -1,6 +1,6 @@
 body{
-	background: black;
-	
+	background: url(../img/fondo.jpg);
+	background: cover;
 }
 img{
 	box-shadow: 0px 5px 20px black; /*sombra de caja*/
